@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Pujo</title>
+    <link rel="stylesheet" href="./public/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="music-container">
+      <button id="play-music" class="toggle-btn">Play Music</button>
+      <audio id="pujo-music" src="./music/pujo.mp3" loop></audio>
+    </div>
+
+    <div class="diya-container">
+      <div class="diya"></div>
+      <div class="diya"></div>
+      <div class="diya"></div>
+    </div>
+
+    <header>
+      <h1>Welcome to the Online Pujo Pandal</h1>
+      <p class="subtitle">Experience the spirit of Durga Puja from anywhere</p>
+      <nav>
+        <a href="#rituals">Rituals</a>
+        <a href="#artists">Artists</a>
+        <a href="#behind">Behind the Scenes</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#gallery">Gallery</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="rituals">
+        <h2>Rituals of Durga Puja</h2>
+        <p>
+          Durga Puja is filled with sacred rituals that symbolize devotion and
+          energy. It begins with <strong>Bodhon</strong>, the invocation of the
+          goddess, followed by <strong>Pushpanjali</strong> where devotees offer
+          flowers in prayer. This is followed by
+          <strong>Kumari Puja</strong> which honors the divine feminine, and on
+          the last day, <strong>Sindoor Khela</strong> which celebrates the
+          goddess’s farewell with color, love, dances and blessings.
+        </p>
+      </section>
+
+      <section id="artists">
+        <h2>Artists & Idol Makers</h2>
+        <p>
+          The magic of Durga Puja comes alive through the hands of talented
+          artisans known as <strong>Kumars</strong>. Working in places like
+          Kumartuli, where they spend months crafting beautiful idols of Maa
+          Durga using clay from the Holy Ganga. Their dedication and skill make
+          each idol unique, representing the perfect blend of art, faith, and
+          tradition.
+        </p>
+      </section>
+
+      <section id="behind">
+        <h2>Behind the Scenes</h2>
+        <p>
+          Behind the lights and music lies an entire world of teamwork and
+          effort. Carpenters, electricians, painters, and decorators work day
+          and night to create pandals. Various communities come together,
+          blending creativity and devotion to turn simple spaces into
+          magnificent temples of celebration.
+        </p>
+      </section>
+
+      <section id="schedule">
+        <h2>Pujo Schedule</h2>
+        <p>
+          Here is a glimpse of what each day of the Durga Puja festival
+          represents:
+        </p>
+        <ul>
+          <li><strong>Sasthi:</strong> Welcoming the Goddess.</li>
+          <li>
+            <strong>Saptami:</strong> The day of Navapatrika Snan and commencing
+            of rituals.
+          </li>
+          <li>
+            <strong>Ashtami:</strong> Sandhya Puja and Pushpanjali along with
+            Dhunuchi Naach.
+          </li>
+          <li>
+            <strong>Nabami:</strong> Final day of worship along with cultural
+            performances.
+          </li>
+          <li><strong>Dashami:</strong> Sindoor Khela and Durga Visarjan.</li>
+        </ul>
+      </section>
+
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="images">
+          <div class="image-container">
+            <img src="./images/wd.jpg" alt="Maa" />
+            <div class="caption">Maa</div>
+            <!-- Used AI -->
+          </div>
+          <div class="image-container">
+            <img src="./images/bree.jpg" alt="Goddess Durga" />
+            <div class="caption">Goddess Durga</div>
+            <!-- Used AI -->
+          </div>
+          <div class="image-container">
+            <img src="./images/wdw.jpg" alt="Puja" />
+            <div class="caption">Puja</div>
+            <!-- Used AI -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Online Pujo. Made by Anubhaw Tiwari.</p>
+      <button id="toggle-theme" class="toggle-btn">Dark Mode</button>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
